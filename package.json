@@ -1,0 +1,28 @@
+{
+  "name": "@pure-tools/babetka",
+  "version": "0.1.0",
+  "description": "Auth guards, rate limiting, session timeout, input sanitization, and AI security for Angular apps",
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json",
+    "publish:lib": "npm run build && npm publish dist/",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=22.0.0",
+    "@angular/router": ">=22.0.0"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^22.0.0",
+    "@angular/compiler-cli": "^22.0.0",
+    "@angular/core": "^22.0.0",
+    "@angular/platform-browser-dynamic": "^22.0.0",
+    "@angular/router": "^22.0.0",
+    "ng-packagr": "^22.0.0",
+    "typescript": "~6.0.0",
+    "vitest": "^4.0.8",
+    "jsdom": "^27.1.0"
+  },
+  "keywords": ["angular", "security", "auth-guard", "rate-limit", "session-timeout", "sanitize", "ai-security", "prompt-injection", "pii"],
+  "license": "MIT"
+}
